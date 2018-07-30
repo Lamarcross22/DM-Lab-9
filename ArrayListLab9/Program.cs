@@ -255,8 +255,8 @@ namespace ArrayListLab9
 
                     try
                 {
-                    object  = ();
-                    var output = int.Parse(s: Console.ReadLine() ?? ) - 1;
+                    //object  = ();
+                    var output = int.Parse(Console.ReadLine());
 
                     if (output <= length && output >= 1)
                     {
@@ -635,9 +635,9 @@ namespace ArrayListLab9
 
                 do
                 {
-                    for (int i = 0; i<>[.Count; i++) //displays table
+                    for (int i = 0; i < classList.Count; i++) //displays table
                     {
-                        Console.WriteLine(StudentName[i]);
+                        Console.WriteLine(classList[i].name);
                     }
                 if (MoreFacts())
                     {
